@@ -31,7 +31,8 @@ int main(){
     cout << "Please enter another adjective:" << endl;
     cin >> adjective;
     adjectives.push_back(adjective);
-
+    printf("\n");
+    cout << "Here is your description:" << endl;
     cout << name << ", the " << adjectives.at(name.size() % adjectives.size()) << " " << noun_map.at(birth_season) 
     << " that " << ending_phrases.at( name.size() % ending_phrases.size()) << endl;
     return 0;
