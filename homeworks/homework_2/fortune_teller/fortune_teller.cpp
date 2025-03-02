@@ -21,14 +21,14 @@ int main(){
     std::array<std::string, 3> ending_phrases{"eats UB for breakfast","finds errors quicker than the compiler","is not afraid of C++ error messages"};
 
     cout << "Welcome to the fortune teller program!" << endl;
-    cout << "Please enter your name" << endl;
+    cout << "Please enter your name:" << endl;
     cin >> name;
-    cout << "Please enter the time of year when you were born: \n(pick from 'spring', 'summer', 'autumn', 'winter')" << endl;
+    cout << "Please enter the time of year when you were born:\n(pick from 'spring', 'summer', 'autumn', 'winter')" << endl;
     cin >> birth_season;
-    cout << "Please enter an adjective" << endl;
+    cout << "Please enter an adjective:" << endl;
     cin >> adjective;
     adjectives.push_back(adjective);
-    cout << "Please enter another adjective" << endl;
+    cout << "Please enter another adjective:" << endl;
     cin >> adjective;
     adjectives.push_back(adjective);
 
