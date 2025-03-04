@@ -20,7 +20,7 @@ int main(){
     std::uniform_int_distribution<> distribution{min, max};
     random = distribution(random_engine);
     cout << "I've generated a number. Try to guess it!" << endl;
-    cout << "Please provide the next guess:";
+    cout << "Please provide the next guess: ";
     cin >> guess;
 
     while (guess != random){
@@ -28,7 +28,7 @@ int main(){
             cout << "Your number is too small. Try again!" << endl;
         else
             cout << "Your number is too big. Try again!" << endl;
-        cout << "Please provide the next guess:";
+        cout << "Please provide the next guess: ";
         cin >> guess;
         k += 1;
         
