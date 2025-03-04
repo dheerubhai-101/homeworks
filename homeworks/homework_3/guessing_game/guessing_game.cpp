@@ -28,10 +28,10 @@ int main(){
             cout << "Your number is too small. Try again!" << endl;
         else
             cout << "Your number is too big. Try again!" << endl;
-        cout << "Please provide the next guess: ";
+        cout << "Please provide the next guess:";
         cin >> guess;
         k += 1;
         
     }
-    printf(" You've done it! You guessed the number %d in %d guesses!", random, k);
+    printf("You've done it! You guessed the number %d in %d guesses!", random, k);
 }
