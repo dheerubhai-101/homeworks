@@ -9,7 +9,7 @@ int main(){
     int min{}, max{}, guess{}, random{}, k{1};
 
     cout << "Welcome to the GUESSING GAME!\nI will generate a number and you will guess it!" << endl;
-    cout << "Please provide the smallest number: " << endl;
+    cout << "Please provide the smallest number:" << endl;
     cin >> min;
     cout << "Please provide the largest number:" << endl;
     cin >> max;
@@ -33,5 +33,5 @@ int main(){
         k += 1;
         
     }
-    printf("You've done it! You guessed the number %d in %d guesses!", random, k);
+    printf(" You've done it! You guessed the number %d in %d guesses!", random, k);
 }
