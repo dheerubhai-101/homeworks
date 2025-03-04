@@ -11,7 +11,7 @@ int main(){
     cout << "Welcome to the GUESSING GAME!\nI will generate a number and you will guess it!" << endl;
     cout << "Please provide the smallest number: " << endl;
     cin >> min;
-    cout << "Please provide the largest number: " << endl;
+    cout << "Please provide the largest number:" << endl;
     cin >> max;
 
 
@@ -20,7 +20,7 @@ int main(){
     std::uniform_int_distribution<> distribution{min, max};
     random = distribution(random_engine);
     cout << "I've generated a number. Try to guess it!" << endl;
-    cout << "Please provide the next guess: ";
+    cout << "Please provide the next guess:";
     cin >> guess;
 
     while (guess != random){
