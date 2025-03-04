@@ -33,5 +33,5 @@ int main(){
         k += 1;
         
     }
-    printf(" You've done it! You guessed the number %d in %d guesses!", random, k);
+    printf("You've done it! You guessed the number %d in %d guesses!", random, k);
 }
